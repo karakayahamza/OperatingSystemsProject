@@ -70,6 +70,7 @@ class TelephoneSimulation {
     public static void main(String[] args) throws InterruptedException {
         TelephoneExchange exchange = new TelephoneExchange();
 
+
         Thread[] friendsCityA = new Thread[6];
         for (int i = 0; i < 6; i++) {
             Friend friend = new Friend("A" + (i + 1), exchange);
